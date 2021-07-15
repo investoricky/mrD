@@ -191,6 +191,12 @@
     border-radius: 13px;
     background-color: #EDF0FF;
 }
+.twenty-eight-container {
+    background-color: #F6F6F6;
+    color: #000;
+    font-weight: 650;
+    border-radius: 13px;
+}
 .four {
     font-size: 20px;
 }
@@ -205,6 +211,14 @@
     font-size: 10px;
     color: #F1B1B2;
 }
+.finished {
+    font-size: 11px;
+    color: #4057AD;
+}
+.km {
+    font-size: 10px;
+    /* color: #F1B1B2; */
+}
 .running-container img {
     width: 1.7rem;
     margin-left: 50px !important;
@@ -216,6 +230,12 @@
 .cycling-container1 {
     color: #4FBAD2;
     margin-left: 110px !important;
+}
+.cycling-container2 {
+    color: #4FBAD2;
+    font-weight: 650;
+    font-size: 14px;
+    margin-left: 70px !important;
 }
 .running-container .running {
     color: #F99F4A;
