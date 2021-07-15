@@ -1,0 +1,364 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+.navbar-brand {
+    font-weight: 650;
+}
+.navbar-brand img {
+    width: 2.5rem;
+}
+.navbar-brand .move {
+    color: #324CA8;
+}
+.navbar-toggler {
+    outline: none !important;
+    border-radius: 13px;
+}
+.navbar .nav-item .burger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+}
+.navbar .nav-item .burger .hamburger {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 5px;
+}
+.navbar .nav-item .burger .hamburger::before,
+.navbar .nav-item .burger .hamburger::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 5px;
+    left: -.2rem;
+}
+.navbar .nav-item .burger .hamburger::before {
+    transform: translateY(-16px);
+    margin-top: .7rem;
+}
+.navbar .nav-item .burger .hamburger::after {
+    transform: translateY(16px);
+    margin-top: -0.7rem;
+}
+.workout-plan {
+    font-weight: 650;
+    color: #000 !important;
+}
+.form-inline {
+    background-color: #E9E9E9;
+    border-radius: 20px;
+    width: 30%;
+}
+.form-control {
+    background-color: #E9E9E9 !important;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+.form-control::placeholder {
+    font-weight: 600;
+    font-size: 13px;
+}
+.fa-search {
+    color: #B7B7B7;
+}
+.icon-group {
+    background-color:#E9EFFF;
+    border-radius: 15px;
+    position: relative;
+}
+.bell {
+    width: 1rem;
+    text-align: center;
+}
+.ellipse {
+    width: .7rem;
+    position: absolute;
+    right: .15rem;
+    top: -.10rem;
+}
+.ellipse1 {
+    width: .7rem;
+    position: absolute;
+    right: .10rem;
+    top: -.10rem;
+}
+.ellipse2 {
+    width: .7rem;
+    position: absolute;
+    right: .10rem;
+    top: -.10rem;
+}
+.male {
+    width: 3rem;
+}
+.super-admin {
+    font-size: 12px;
+}
+.row {
+    min-height: 100vh;
+}
+.large-container {
+    background-color: #F6F9F2;
+}
+.sidebar h5 {
+    line-height: 75px;
+}
+.sidebar ul li:nth-child(3) {
+    background-color: #E5E7F3;
+    border-right:  3px solid #0B2997;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sidebar li {
+    display: block;
+    height: 100%;
+    line-height: 45px;
+    font-size: 13px;
+    font-weight: 650;
+    color: #B1B1B1;
+}
+.workout-text {
+    color: #3C54AC;
+}
+.harp, .vector,
+.lightning, .plate, .pie-chart {
+    width: 1rem;
+}
+.chart {
+    width: 1.5rem;
+}
+.btn {
+    background-color: #0B2997;
+    font-size: 13px;
+    color: #fff;
+    text-align: start;
+    border-radius: 17px;
+}
+.gymove {
+    font-size: 11px;
+    font-weight: 650;
+    color: #A5A5A5;
+}
+.fa-heart {
+    color: #DD2E44;
+}
+.general-list-container {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 80%;
+    height: 100%;
+}
+.plan-list-text {
+    font-weight: 600;
+}
+.lorem-text {
+    font-size: 11px;
+}
+.all-container {
+    background-color: #E8E8E8;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.Unfinished-text {
+    border-radius: 20px;
+    background-color: #fff;
+    color: #5066B5;
+}
+.filter-container {
+    background-color: #0B2997;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.filter-container .image {
+    width: 2.2rem;
+    height: 1.1rem;
+}
+.four-container {
+    color: #0C2997;
+    font-weight: 650;
+    border-radius: 13px;
+    background-color: #EDF0FF;
+}
+.four {
+    font-size: 20px;
+}
+.mon, .tue {
+    font-size: 12px;
+}
+.routine-container, .running-container, .cycling-container, .cycling-container1 {
+    font-size: 13px;
+    font-weight: 650;
+}
+.unfinished {
+    font-size: 10px;
+    color: #F1B1B2;
+}
+.running-container img {
+    width: 1.7rem;
+    margin-left: 50px !important;
+}
+.cycling-container {
+    color: #4FBAD2;
+    margin-left: 60px !important;
+}
+.cycling-container1 {
+    color: #4FBAD2;
+    margin-left: 110px !important;
+}
+.running-container .running {
+    color: #F99F4A;
+}
+.yogasit {
+    height: 1.6rem;
+}
+.flag {
+    width: 1rem;
+}
+.elips-containerr {
+    background-color: #415DC1;
+    border-radius: 15px;
+    color: #fff;
+}
+.five-container {
+    background-color: #0B2997;
+    border-radius: 20px;
+}
+.edit {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 7px #333;
+    position: absolute;
+    top: 22rem;
+    left: 41.5rem;
+}
+.shade {
+    background-color: #D8D8D8;
+}
+.workout {
+    border-radius: 15px;
+    background-color: #EDF0FF;
+    color: #0C2997;
+    font-weight: 600;
+    margin-left: 70px !important;
+}
+.cycling {
+    border-radius: 15px;
+    background-color: #EDF0FF;
+    color: #0C2997;
+    font-weight: 600;
+    margin-left: 85px !important;
+}
+.cycling1 {
+    border-radius: 15px;
+    background-color: #EDF0FF;
+    color: #0C2997;
+    font-weight: 600;
+    margin-left: 85px !important;
+}
+.play-wrap {
+    border-radius: 15px;
+    background-color: #FF9331;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 80px !important;
+}
+.workout img {
+    width: .8rem;
+    height: 1.3rem;
+}
+.cycling img {
+    width: .8rem;
+    height: 1.3rem;
+}
+.elips-container {
+    border-radius: 15px;
+    color: #0C2997;
+    background-color: #EDF0FF;
+}
+.calender-container {
+    width: 30%;
+    height: 30rem;
+}
+.calender {
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: -13px !important;
+    /* height: 100%; */
+}
+.calender img {
+    width: 100%;
+}
+.weekly-plan {
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: 600;
+    margin-top: 4px !important;
+}
+
+.three-container {
+    border-radius: 13px;
+    color: #0C2997;
+    background-color: #EDF0FF;
+}
+.digits {
+    font-size: 17px;
+    font-weight: 650;
+}
+.digits-sixteen {
+    font-size: 14px;
+    font-weight: 700;
+}
+.sets {
+    font-size: 11px;
+}
+.external-container {
+    /* position: relative; */
+    font-weight: 600;
+}
+.cross-container {
+    border-radius: 50px;
+    background-color: #0B2997;
+    position: absolute;
+    top:29rem;
+    left: 58rem;
+}
+.cross {
+    width: 2rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar,
+    .navbar-nav {
+        padding: 10px !important;
+    }
+    .workout-plan {
+        padding: 0 !important;
+    }
+    .burger {
+        display: none !important;
+    }
+    .form-inline {
+        width: 100%;
+        padding: 0 10px !important;
+    }
+    .fa-search {
+        width: max-content;
+    }
+    .icon-container {
+        margin-top: 10px !important;
+    }
+}
