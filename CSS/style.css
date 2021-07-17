@@ -2,7 +2,7 @@
     margin: 0 !important;
     padding: 0 !important;
     list-style: none;
-    outline: none;
+    outline: none !important;
     border: none;
 }
 .navbar-brand {
@@ -15,7 +15,7 @@
     color: #324CA8;
 }
 .navbar-toggler {
-    outline: none !important;
+    /* outline: none !important; */
     border-radius: 13px;
 }
 .navbar .nav-item .burger {
@@ -104,14 +104,12 @@
 .super-admin {
     font-size: 12px;
 }
-.row {
-    min-height: 100vh;
-}
 .large-container {
     background-color: #F6F9F2;
+    padding: 20px !important;
 }
 .sidebar h5 {
-    line-height: 75px;
+    line-height: 55px;
 }
 .sidebar ul li:nth-child(3) {
     background-color: #E5E7F3;
@@ -155,14 +153,14 @@
 .general-list-container {
     background-color: #fff;
     border-radius: 15px;
-    width: 80%;
-    height: 100%;
 }
+/* first container */
 .plan-list-text {
     font-weight: 600;
 }
 .lorem-text {
     font-size: 11px;
+    color: #C6C6C6;
 }
 .all-container {
     background-color: #E8E8E8;
@@ -191,12 +189,6 @@
     border-radius: 13px;
     background-color: #EDF0FF;
 }
-.twenty-eight-container {
-    background-color: #F6F6F6;
-    color: #000;
-    font-weight: 650;
-    border-radius: 13px;
-}
 .four {
     font-size: 20px;
 }
@@ -207,115 +199,107 @@
     font-size: 13px;
     font-weight: 650;
 }
-.unfinished {
+
+/* second container */
+.routine-container .unfinished {
     font-size: 10px;
-    color: #F1B1B2;
+    color: #EE9D9E;
+}
+
+.running-container {
+    color: #F99639;
+}
+.running-container img {
+    width: 1.7rem;
+}
+.workout-container {
+    background-color: #F5F5F5;
+    border-radius: 18px;
+    padding: 14px 15px !important;
+}
+.workout-container img {
+    width: 1rem;
+}
+.workout-container p {
+    font-size: 14px;
+    font-weight: 650;
+    color: #0C2A97;
+}
+.fa-ellipsis-v {
+    border-radius: 18px;
+    background-color: #F5F5F5;
+    font-weight: 650;
+    padding: 12px 18px !important;
+    font-size: 23px !important;
+}
+
+/* Third Container */
+.five-container {
+    background-color: #0B2997;
+    border-radius: 20px;
+    font-weight: 650;
+}
+.five-container-text {
+    color: #fff;
+    font-weight: 650;
+    font-size: 20px;
+}
+.five-container .tue {
+    font-weight: 650;
+    font-size: 12px;
+    color: #fff;
+}
+.yoga-container {
+    font-weight: 650;
+    font-size: 13px;
+}
+.yoga-container img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.flag-wrap {
+    background-color: #FF9331;
+    border-radius: 18px;
+    padding: 14px 15px !important;
+}
+.flag-wrap img {
+    width: 1.2rem;
+}
+.flag-wrap p {
+    font-size: 14px;
+    font-weight: 650;
+    color: #fff;
+}
+.elips {
+    border-radius: 18px;
+    background-color: #415DC1;
+    color: #fff;
+    font-weight: 650;
+    padding: 12px 18px !important;
+    font-size: 23px !important;
+}
+/* Fourth-Container */
+.cycling {
+    color: #2AACC8;
+}
+.km {
+    font-size: 10px;
 }
 .finished {
     font-size: 11px;
     color: #4057AD;
 }
-.km {
-    font-size: 10px;
-    /* color: #F1B1B2; */
-}
-.running-container img {
-    width: 1.7rem;
-    margin-left: 50px !important;
-}
-.cycling-container {
-    color: #4FBAD2;
-    margin-left: 60px !important;
-}
-.cycling-container1 {
-    color: #4FBAD2;
-    margin-left: 110px !important;
-}
-.cycling-container2 {
-    color: #4FBAD2;
+/* Sixth-Container */
+.twenty-eight-container {
+    background-color: #F6F6F6;
+    color: #000;
     font-weight: 650;
-    font-size: 14px;
-    margin-left: 70px !important;
+    border-radius: 13px;
 }
-.running-container .running {
-    color: #F99F4A;
-}
-.yogasit {
-    height: 1.6rem;
-}
-.flag {
-    width: 1rem;
-}
-.elips-containerr {
-    background-color: #415DC1;
-    border-radius: 15px;
-    color: #fff;
-}
-.five-container {
-    background-color: #0B2997;
-    border-radius: 20px;
-}
-.edit {
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 0 7px #333;
-    position: absolute;
-    top: 22rem;
-    left: 41.5rem;
-}
-.shade {
-    background-color: #D8D8D8;
-}
-.workout {
-    border-radius: 15px;
-    background-color: #EDF0FF;
-    color: #0C2997;
-    font-weight: 600;
-    margin-left: 70px !important;
-}
-.cycling {
-    border-radius: 15px;
-    background-color: #EDF0FF;
-    color: #0C2997;
-    font-weight: 600;
-    margin-left: 85px !important;
-}
-.cycling1 {
-    border-radius: 15px;
-    background-color: #EDF0FF;
-    color: #0C2997;
-    font-weight: 600;
-    margin-left: 85px !important;
-}
-.play-wrap {
-    border-radius: 15px;
-    background-color: #FF9331;
-    color: #fff;
-    font-weight: 600;
-    margin-left: 80px !important;
-}
-.workout img {
-    width: .8rem;
-    height: 1.3rem;
-}
-.cycling img {
-    width: .8rem;
-    height: 1.3rem;
-}
-.elips-container {
-    border-radius: 15px;
-    color: #0C2997;
-    background-color: #EDF0FF;
-}
-.calender-container {
-    width: 30%;
-    height: 30rem;
-}
+/* Calender-Section */
 .calender {
     border-radius: 20px;
     background-color: #fff;
-    margin-top: -13px !important;
-    /* height: 100%; */
 }
 .calender img {
     width: 100%;
@@ -326,11 +310,10 @@
     font-weight: 600;
     margin-top: 4px !important;
 }
-
 .three-container {
     border-radius: 13px;
     color: #0C2997;
-    background-color: #EDF0FF;
+    background-color: #EEEEEE;
 }
 .digits {
     font-size: 17px;
@@ -343,21 +326,37 @@
 .sets {
     font-size: 11px;
 }
-.external-container {
-    /* position: relative; */
-    font-weight: 600;
+.cross-wrap {
+    position: relative;
 }
 .cross-container {
-    border-radius: 50px;
-    background-color: #0B2997;
     position: absolute;
-    top:29rem;
-    left: 58rem;
+    background-color: #0B2896;
+    border-radius: 50%;
+    left: 5rem;
+    top: 2.7rem;
 }
-.cross {
-    width: 2rem;
+.cross-container img {
+    width: 2.5rem;
 }
-
+.data-container {
+    font-weight: 650;
+}
+.arrow-container {
+    background-color: #E6E8F5;
+    border-radius: 13px;
+}
+.one-container {
+    border-radius: 13px;
+    background-color: #415DC1;
+    color: #fff;
+    font-weight: 650;
+    padding: 6px 10px !important;
+    font-size: 13px;
+}
+.blue-chevron {
+    color: #0B2896;
+}
 
 
 @media (max-width: 768px) {
@@ -368,7 +367,8 @@
     .workout-plan {
         padding: 0 !important;
     }
-    .burger {
+    .burger,
+    .sidebar {
         display: none !important;
     }
     .form-inline {
@@ -380,5 +380,12 @@
     }
     .icon-container {
         margin-top: 10px !important;
+    }
+    .general-list-container {
+        padding: 10px !important;
+    }
+    .plan-list-text,
+    .lorem-text {
+        text-align: center;
     }
 }
